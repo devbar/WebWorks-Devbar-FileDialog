@@ -5,7 +5,7 @@ This is an extension for Blackberry WebWorks written in ActionScript. You can tr
 
 How to use
 ---------------
-1. Copy the whole tree of the project to <SDK-Directory>\ext\blackberry.devbar.dialog (i.g. D:\SDK\BlackBerry WebWorks SDK for TabletOS 2.2.0.5\bbwp\ext\blackberry.devbar.dialog)
+1. Copy the whole tree of the project to "SDK-Directory"\ext\blackberry.devbar.dialog (i.g. D:\SDK\BlackBerry WebWorks SDK for TabletOS 2.2.0.5\bbwp\ext\blackberry.devbar.dialog)
 2. Append the corresponding feature id to the config.xml of your project
 ```xml
 <feature id="blackberry.devbar.dialog" />
