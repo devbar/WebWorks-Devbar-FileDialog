@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library>
+	<extension id="blackberry.devbar.dialog">
+  	  <entryClass>blackberry.devbar.dialog.Dialog</entryClass>
+	</extension>
+	<platforms>
+		<platform value="AIR">
+			<target version="default" config="AIR_DEVBAR_UI_DIALOG" />
+		</platform>
+	</platforms>
+	<configurations>
+		<configuration name="AIR_DEVBAR_UI_DIALOG" version="1.0" comment="For XHR architecture">
+			<src type="text/javascript" path="js/common/dialog/devbar_dialog_dispatcher.js" comment="Application JS interface" />
+			<src type="text/javascript" path="js/common/dialog/devbar_dialog_ns.js" comment="Application JS interface" />
+			<src type="text/actionscript" path="src/Air/Dialog/src" comment="ActionScript implementation" />
+		</configuration>
+	</configurations>
+	<features>
+		<feature id="blackberry.devbar.dialog" version="1.0.0" />
+	</features>
+</library>
